@@ -526,12 +526,12 @@ paths:
         Only the business partners to which you have access to are returned.
 ----
 
-[#239]
+[#240]
 == {SHOULD} Prefer resource payload to represent payload state
 To comply with Hypermedia as the engine of application state (HATEEOAS, https://en.wikipedia.org/wiki/HATEOAS) we should prefer to represent application state in the resource document/payload itself. This also helps with adhering to the rules of RESTful state transfer.
 
 Application state should not be represented as proprietary HTTP Headers or some other side-channel which is not appropriate to the HTTP verb being used.
 
-[#240]
-== {SHOULD} Not use "x-" proprietary HTTP headers
+[#241]
+== {SHOULD} Not use `x-` proprietary HTTP headers
 Custom proprietary headers have historically been used with an X- prefix, but this convention was deprecated in June 2012 because of the inconveniences it caused when nonstandard fields became standard in RFC 6648 - https://datatracker.ietf.org/doc/html/rfc6648

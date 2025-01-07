@@ -330,7 +330,7 @@ should pay attention to the `Accept` header sent by the client and set the
 APIs should accept both media types.
 
 
-[#177]
+[#423]
 == {MUST} Do not expose Stack Traces
 
 Stack traces contain implementation details that are not part of an API,

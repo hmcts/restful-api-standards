@@ -194,7 +194,7 @@ responses:
       $ref: 'https://hmcts.github.io/problem/schema.yaml#/Problem'
 ----
 
-[#176]
+[#242]
 == {MUST} Do not expose Stack Traces
 
 Stack traces contain implementation details that are not part of an API,
